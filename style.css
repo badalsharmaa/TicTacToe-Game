@@ -1,0 +1,54 @@
+
+body {
+    text-align: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: top;
+    background-image:url(./wall.jpg);
+    width: 100%;
+    height: 100%;
+    font-family: Arial, Helvetica;
+    letter-spacing: 0.02em;
+     font-weight: 400;
+    -webkit-font-smoothing: antialiased; 
+
+}
+
+.heading,#result,#playerTurn{
+    color: rgb(111, 175, 161);
+}
+
+table,tr,td {
+    border-collapse: collapse;
+    margin-left: 40%;
+    border-radius: 50%;
+}
+
+.cell{
+    width: 100px;
+    height:100px;
+  /*transparent effect*/
+    text-align: center;
+    cursor: pointer;
+    background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+    border-radius: 20px;
+    /* border:1px solid rgba(255, 255, 255, 0.18); */
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.37);
+    color: rgb(111, 175, 161);
+}
+div{
+    padding: 5px;
+}
+button{
+    padding: 5px;
+    background-color: rgb(83, 145, 130);
+    border-radius: 5px;
+    border: none;
+    font-weight: 900;
+    color: white;
+    cursor: pointer;
+    
+}
